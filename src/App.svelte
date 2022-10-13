@@ -13,6 +13,7 @@ let age
  function onCLIck() {
    age = age - 10
  }
+ 
   </script>
   
 <h1>
@@ -23,18 +24,18 @@ i have a dog, she is {age}
 
 </h1>
 
-<button on:click={onclick}>Change something on this page!</button>
-<button on:click={onClick}>Change something else on this page!!</button>
-<button on:click={onCLick}>Change a third thing on this page!!!</button>
-<button on:click={onCLIck}>How about a fourth thing!!!!</button>
+<button on:click={onclick}>Change something on this page! (age +1)</button>
+<button on:click={onClick}>Change something else on this page!! (age -1)</button>
+<button on:click={onCLick}>Change a third thing on this page!!! (age +10)</button>
+<button on:click={onCLIck}>How about a fourth thing!!!! (age -10)</button>
 
 
 <h2>
 dogs are better then cats 
 
 </h2>
-
-
+<button on:click={onCLICk}>Yes</button>
+<button on:click={onCLICK}>No</button>
 <p>
  They just are 
  
