@@ -16,9 +16,7 @@ let age
  
   </script>
   
-<h1>
-hello i am a person
-</h1>
+<h1>Hello {name}</h1>
 <h1>
 i have a dog, she is {age}
 
@@ -48,7 +46,13 @@ h2 {background: blue
 }
 p {background: navy
 }
+
 </style>
+<p1> your name is </p1>
+<input 
+bind:value={name} 
+placeholder="Your name" 
+  />
 
 
 
