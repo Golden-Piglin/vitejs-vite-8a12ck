@@ -13,10 +13,11 @@ let age
  function onCLIck() {
    age = age - 10
  }
- 
+ let name
+  
   </script>
   
-<h1>Hello {name}</h1>
+<h1>Hello {name} </h1>
 <h1>
 i have a dog, she is {age}
 
@@ -49,10 +50,7 @@ p {background: navy
 
 </style>
 <p1> your name is </p1>
-<input 
-bind:value={name} 
-placeholder="Your name" 
-  />
+<input bind:value={name} placeholder="Your name" />
 
 
 
